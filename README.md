@@ -1,6 +1,6 @@
 # 🐍 py-playground
 
-Welcome to **py-playground** — a cozy Python playground where I learn, experiment, practice, and grow as a coder 🌱✨
+Welcome to **py-playground**, a cozy Python playground where I learn, experiment, practice, and grow as a coder 🌱✨
 
 This repository is all about **hands-on learning**: trying things out, making mistakes, fixing them, and getting better step by step.
 
