@@ -1,0 +1,41 @@
+name= input("Name: ")
+roll= input("Roll Number: ")
+sapid= int(input("SAP ID: "))
+sem= input("Semester: ")
+course= input("Course: ")
+pds= int(input("PDS marks: "))
+python= int(input("Python marks: "))
+chem= int(input("Chemistry marks: "))
+english= int(input("English marks: "))
+physics= int(input("Physics marks: "))
+total= pds+python+chem+english+physics
+percentage= total/5
+cgpa= percentage/10
+
+if cgpa<=3.4:
+    grade= "F"
+elif cgpa<=5.0:
+    grade= "C+"
+elif cgpa<=6.0:
+    grade= "B"
+elif cgpa<=7.0:
+    grade= "B+"
+elif cgpa<=8.0:
+    grade= "A"
+elif cgpa<=9.0:
+    grade= "A+"
+else:
+    grade= "O (Outstanding)"
+
+print("Name:", name)
+print("Roll Number:", roll, "SAP ID:", sapid)
+print("Semester:", sem, "Course:", course)
+print("\nSubjects and Marks:")
+print("PDS:", pds)
+print("Python:", python)
+print("Chemistry:", chem)
+print("English:", english)
+print("Physics:", physics)
+print("\nPercentage:", percentage, "%")
+print("CGPA:", round(cgpa, 1))
+print("Grade:", grade)
