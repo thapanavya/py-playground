@@ -1,0 +1,5 @@
+terms= int(input("Enter number of terms: "))
+p,q = 0,1
+for i in range(terms):
+    print(p, end=" ")
+    p, q=q, p+q
