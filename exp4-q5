@@ -1,0 +1,7 @@
+s = input("Enter the string: ").upper()
+count = {}
+for ch in s:
+    if ch.isalpha():
+        count[ch] = count.get(ch, 0) + 1
+for ch in sorted(count):
+    print(count[ch], ch, sep="")
